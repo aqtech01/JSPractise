@@ -147,4 +147,68 @@ let lastName = "Qadeer";
 
 
 // length 
+
 console.log(firstName.length);
+
+// Cases 
+
+console.log(firstName.toLowerCase());
+console.log(lastName.toUpperCase());
+
+// Slicing
+
+console.log(firstName.slice(0,3));
+
+
+// split 
+console.log(firstName.split(" "));
+
+// join 
+
+console.log(firstName.split(" ").join(" "));
+
+
+// include
+
+console.log(firstName.includes("A"));
+
+
+// Trim
+
+console.log(firstName.trim());
+
+
+let favActorName = "Robert Downy Jnr"
+// let captalizefavActorName = favActorName.toUpperCase();
+let message = `My Favourite Actor is ${favActorName.toUpperCase()} and he is known for his cool personality, good acting skills and hard work  `;
+message += "his favourite show is Iron Man"
+console.log(message); 
+console.log(message.slice(0,6));
+console.log(message.split(" "));
+console.log(message.split(" ").join(" "));
+
+
+
+// type Conversion
+
+let money = 50;
+console.log(typeof money);
+money = money.toString();
+money = "" (money);
+
+let moneystr = "50";
+console.log(moneystr);
+console.log(typeof moneystr);
+moneystr = parseInt(moneystr)
+moneystr = Number(moneystr)
+moneystr = +moneystr
+
+console.log(moneystr);
+console.log(typeof moneystr);
+
+
+
+
+
+
+
