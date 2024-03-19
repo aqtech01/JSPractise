@@ -161,11 +161,31 @@ console.log(numbers.sort());
 
 const person = {
     "id":1,
-    "name":"Abdul Qadeer",
+    "firstName":"Abdul Qadeer",
     "age":23,
     "hobby":["Programming","Watching Movies"],
     "isProgrammer":true,
 
 }
+person.lastName = "Khawaja";
+console.log(person);
+delete(person.lastName)
+console.log(person);
 console.log(person.hobby);
+console.log(person["hobby"]);
 console.log(typeof person);
+
+
+
+const car ={
+    "type":"BMW",
+    "model":1999,
+    "color":"white",
+} 
+console.log(car);
+car.type = "Toyota";
+car.wheels = "Panther";
+console.log(car);
+
+
+

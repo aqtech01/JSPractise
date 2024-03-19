@@ -1,0 +1,8 @@
+{
+    "name":"Abdul Qadeer",
+    "age":23,
+    "email":"abcd@gmail.com",
+    "isProgrammer":true,
+    "hobbies":["Programming","Watching Movies"],
+    "Address":"Leeds"
+}
